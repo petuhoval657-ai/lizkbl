@@ -46,7 +46,7 @@ for (let g = 0; g < groupCount; g++) {
 	const video = document.createElement("video");
 	video.crossOrigin = "anonymous";
 	video.src =
-		"https://raw.githubusercontent.com/github.com/petuhoval657-ai/lizkbl/main/013de7a0fc5747838c1288b7a7ba7355.webm";
+		"https://raw.githubusercontent.com/petuhoval657-ai/lizkbl/main/013de7a0fc5747838c1288b7a7ba7355Particles.webm";
 	video.loop = true;
 	video.muted = true;
 	video.playbackRate = 0.010 + Math.random() * 1.0;
@@ -106,7 +106,7 @@ for (let g = 0; g < groupCount; g++) {
 
 const hdrLoader = new HDRLoader();
 const hdrTexture = hdrLoader.load(
-	"https://raw.githubusercontent.com/petuhoval657-ai/lizkbl/refs/heads/main/derelict_airfield_01_1k (7).hdr",
+	"https://raw.githubusercontent.com/petuhoval657-ai/lizkbl/refs/heads/main/autumn_hill_view_1k (1).hdr",
 	() => {
 		hdrTexture.mapping = THREE.EquirectangularReflectionMapping;
 		hdrTexture.colorSpace = THREE.SRGBColorSpace;
