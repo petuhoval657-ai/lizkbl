@@ -106,7 +106,7 @@ for (let g = 0; g < groupCount; g++) {
 
 const hdrLoader = new HDRLoader();
 const hdrTexture = hdrLoader.load(
-	"https://raw.githubusercontent.com/petuhoval657-ai/lizkbl/refs/heads/main/autumn_hill_view_1k (1).hdr",
+	"https://raw.githubusercontent.com/petuhoval657-ai/lizkbl/refs/heads/main/autumn_hill_view_1k(1).hdr",
 	() => {
 		hdrTexture.mapping = THREE.EquirectangularReflectionMapping;
 		hdrTexture.colorSpace = THREE.SRGBColorSpace;
